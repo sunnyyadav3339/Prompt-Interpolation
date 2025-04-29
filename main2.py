@@ -140,7 +140,7 @@ def run_generation(object1, object2):
     from groq import Groq
 
     # Initialize Groq client with API key (make sure to securely store it)
-    client = Groq(api_key="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")  # Replace with your actual key
+    client = Groq(api_key="your_api_key")  # Replace with your actual key
 
     # List of objects to generate prompts for
     objects = [object1, object2]
